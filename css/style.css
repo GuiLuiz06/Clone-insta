@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: #ffffff;
+}
+#main-container {
+  display: flex;
+  margin-top: 150px;
+  
+}
+
+#banner-container,
+#form-container {
+  flex: 1 1 0;
+
+}
+
+#banner-container {
+  text-align: center;
+}
+
+#banner-container img {
+  width: 28vw;
+  height: 45vh;
+  margin-right: 15px;
+  margin-top: 25px;
+  position: absolute;
+  left: 24em;
+  
+}
+
+#form-container {
+  text-align: center; 
+}
+
+/* login */
+
+#form-box {
+  width: 350px;
+  margin-top: 30px;
+}
+
+#logo-insta {
+  width: 175px;
+  height: 51px;
+  margin: 30px auto 12px;
+  margin-bottom: 30px;
+}
+#login-form input {
+  display: block;
+  background-color: #fcf6f6;
+  font-size: 12px;
+  padding: 12px 9px;
+  border: 1px solid gray;
+  border-radius: 3px;
+  width: 268px;
+  margin: 6px auto;
+}
+#line{
+  margin-top: 25px;
+}
+#facebook-login a span {
+    display: inline-block;
+    vertical-align: middle;
+    color: rgb(28, 54, 141);
+    font-size: 14px;
+}
+#facebook-login {
+  margin-top: 20px;
+}
+
+#facebook-login img {
+    display: inline-block;
+    height: 15px;
+    vertical-align: middle;
+    margin-right: 10px;
+    
+}
+#facebook-login a {
+  text-decoration: none;
+  
+}
+#forgot-pass{
+  margin-top: 10px;
+  padding-left: 4px;
+}
+#forgot-pass a {
+  text-decoration: none;
+  color: rgb(89, 89, 128);
+  font-size: 13px;
+}
+#register-container {
+  margin-top: 65px;
+  font-size: 13px;
+}
+
+#btn-blue input {
+  background-color: rgb(79, 133, 233);
+  width: 268px;
+  padding: 10px 9px;
+  border-radius: 10px;
+  margin: 5px auto;
+  border: 1px solid gray;
+  color: #fff;
+}
+#bold {
+  font-weight: bold;
+}
+#blue {
+  text-decoration: none;
+  color: rgb(48, 104, 193);
+}
+
+footer {
+  display: flex;          /* Ativa Flexbox */
+    flex-wrap: wrap;        /* Permite quebra de linha se não couber */
+    justify-content: center; /* Centraliza os itens (opcional) */
+    gap: 10px 16px;        /* Espaço entre itens (10px vertical, 16px horizontal) */
+    padding: 0;            /* Remove padding padrão da lista */
+    list-style: none;      /* Remove os marcadores (bolinhas) */
+    margin: 0 0 16px 0;
+    margin-top: 200px;
+}
+
+footer #footer-links {
+  display: flex;
+  list-style: none;
+}
+
+#footer-links li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+#footer-links a{
+  text-decoration: none;
+  color: #8e8e8e;
+  font-size: 12px;
+}
+#copyright{
+  text-align: center;
+  color: #8e8e8e;
+  font-size: 12px;
+  margin-top: 40px;
+  position: absolute;
+}
