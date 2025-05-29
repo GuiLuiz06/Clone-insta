@@ -9,8 +9,8 @@ body {
 }
 #main-container {
   display: flex;
-  margin-top: 150px;
-  
+  margin-top: 80px;
+
 }
 
 #banner-container,
@@ -24,12 +24,11 @@ body {
 }
 
 #banner-container img {
-  width: 28vw;
-  height: 45vh;
-  margin-right: 15px;
-  margin-top: 25px;
-  position: absolute;
-  left: 24em;
+  width: 35.7vw;
+  height: 60vh;
+  margin-top: 1px;
+  position: relative;
+  left: 11em;
   
 }
 
@@ -41,7 +40,9 @@ body {
 
 #form-box {
   width: 350px;
-  margin-top: 30px;
+  /* margin-top: 30px; */
+  padding-left: 20%;
+
 }
 
 #logo-insta {
@@ -49,6 +50,7 @@ body {
   height: 51px;
   margin: 30px auto 12px;
   margin-bottom: 30px;
+  margin-left: 21%;
 }
 #login-form input {
   display: block;
@@ -123,7 +125,7 @@ footer {
     padding: 0;            /* Remove padding padrão da lista */
     list-style: none;      /* Remove os marcadores (bolinhas) */
     margin: 0 0 16px 0;
-    margin-top: 200px;
+    margin-top: 100px;
 }
 
 footer #footer-links {
